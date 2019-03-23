@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0-preview-19075-0444" />
+    <PackageReference Include="microsoft.entityframeworkcore" Version="2.2.3" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.3" />
+    <PackageReference Include="mysql.data.entityframeworkcore" Version="8.0.15" />
+    <PackageReference Include="mysql.data.entityframeworkcore.design" Version="8.0.15" />
+  </ItemGroup>
+
+</Project>
